@@ -11,8 +11,7 @@ void dsf(int x, int y, int n, int m, vector<vector<bool>> &isVisited, vector<vec
     // Mark the current cell as visited
     isVisited[x][y] = 1;
     
-    // ISSUE: Loop should run from i=0 to i<4, not i<n
-    // Currently it's using n (number of rows) instead of 4 (number of directions)
+    // Loop should run from i=0 to i<4 bcoz of 4 directions
     for(int i = 0; i < 4; i++){  // Should be 4, not n!
         
         // Calculate new coordinates by adding direction offsets
