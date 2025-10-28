@@ -1,6 +1,18 @@
 // Problem: Perform Topological Sort on a directed graph using Kahn's Algorithm (BFS approach)
 // Topological Sort is a linear ordering of vertices such that for every directed edge u -> v, u comes before v in the ordering.
 
+// Time Complexity (TC):
+//   - Reading edges and building adjacency list & inDegree: O(m) average
+//   - BFS traversal of nodes and edges: O(n + m)
+//   => Overall TC = O(n + m) (using unordered_map & unordered_set)
+//
+// Space Complexity (SC):
+//   - Adjacency list: O(n + m)
+//   - inDegree map: O(n)
+//   - nodes unordered_set: O(n)
+//   - queue and topo vector: O(n)
+//   => Overall SC = O(n + m)
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -16,7 +28,7 @@ int main()
     map<string, int> inDegree;
 
     // nodes: store all unique nodes (sources, destinations, or isolated)
-    set<string> nodes;
+    unordered_set<string> nodes;
 
     // Read edges and build adjacency list & inDegree map
     for (int i = 0; i < m; i++)
@@ -110,3 +122,12 @@ Learning Notes:
 - Topological order is not necessarily unique; depends on the order of nodes in the queue.
 - Using `nodes` set ensures we include nodes without incoming or outgoing edges.
 */
+
+// 6 7
+// Nasta Office
+// Suit Office
+// Office Email
+// Meeting Home
+// Office Meeting
+// Email Home
+// Home Dinner
