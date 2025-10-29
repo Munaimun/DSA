@@ -1,3 +1,7 @@
 TC/SC TEST = https://docs.google.com/forms/d/e/1FAIpQLSd1LbJ8iN1iZILFOBGY7-IgZD3TD7wqdY6-77EgWIVLuhB4Bw/viewscore?viewscore=AE0zAgBHsWrncQkVqB1gM1l2zLq6GA29cJAo2IEMmBpZXvn4IrDPrVV95q1QCmkyCg
 
 OOPs TEST = https://forms.gle/5G4NztHUq74xBe98A
+
+DBMS Concept Quiz = https://docs.google.com/forms/d/e/1FAIpQLSdeHCE-6jylOFeXD12ki7MVDXv7NB-g56g2ApDubgWXuYlrcw/viewform
+
+Recursion & DP Quiz = https://docs.google.com/forms/d/e/1FAIpQLSeVvvVCEnvyrzzMYINpKSZ4B8WH7Pt9SUl5yDJy-eI8eHaaeQ/viewform
