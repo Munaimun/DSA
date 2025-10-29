@@ -4,7 +4,7 @@
 // Time Complexity (TC):
 //   - Reading edges and building adjacency list & inDegree: O(m) average
 //   - BFS traversal of nodes and edges: O(n + m)
-//   => Overall TC = O(n + m) (using unordered_map & unordered_set)
+//   => Overall TC = O(n + m) (unordered_set)
 //
 // Space Complexity (SC):
 //   - Adjacency list: O(n + m)
